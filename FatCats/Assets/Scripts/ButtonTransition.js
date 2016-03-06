@@ -29,6 +29,9 @@ function ChangeScene () {
 		case 'BackButton':
 			GetComponent.<UnityEngine.SceneManagement.SceneManager>().LoadScene(1);
 			break;
+		case 'QuitButton':
+			Application.Quit();
+			break;
 		default:
 			break;
 	}
