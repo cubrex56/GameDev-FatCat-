@@ -1,7 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonTransition.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SetPrices.js">
     <Files>
+      <File FileName="Assets/Scripts/SetPrices.js" Line="12" Column="2" />
       <File FileName="Assets/Scripts/ButtonTransition.js" Line="9" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
