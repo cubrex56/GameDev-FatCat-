@@ -5,7 +5,11 @@ function Start () {
 }
 
 function Update () {
-	
+
+	if (Input.GetKeyDown (KeyCode.Escape)) {
+		GetComponent.<UnityEngine.SceneManagement.SceneManager>().LoadScene(0);
+	}
+
 }
 
 function ChangeScene () {
@@ -29,6 +33,8 @@ function ChangeScene () {
 		case 'BackButton':
 			GetComponent.<UnityEngine.SceneManagement.SceneManager>().LoadScene(1);
 			break;
+		case 'ShopButton':
+			GetComponent.<UnityEngine.SceneManagement.SceneManager>().LoadScene(3);
 		case 'QuitButton':
 			Application.Quit();
 			break;
