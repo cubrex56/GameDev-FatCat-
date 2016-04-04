@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SettingPrices.unity
+- path: Assets/Scenes/SpyAllocation.unity
   isLoaded: 1
   isActive: 1
